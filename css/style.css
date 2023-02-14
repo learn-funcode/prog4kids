@@ -23,6 +23,22 @@ h2 {
 	text-shadow: white 2px 4px 15px;
 }
 
+.mb0{
+	background-color: goldenrod;
+	border-color: darkgoldenrod;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	border-radius: 50px;
+	user-select: none;
+	font-family: sans-serif;
+	font-size: 50px;
+	font-style: bold;
+	border-width: 10px;
+	width: 150px;
+	height: 150px;
+}
+
 .mb1{
 	background-color: Crimson;
 	border-color: DarkRed;
