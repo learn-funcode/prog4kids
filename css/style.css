@@ -24,11 +24,11 @@ h2 {
 }
 
 .mb0{
-	background-color: goldenrod;
+	background-color: white;
 	border-color: darkgoldenrod;
 	text-align: center;
 	text-decoration: none;
-	color: white;
+	color: blanchedalmond;
 	border-radius: 50px;
 	user-select: none;
 	font-family: sans-serif;
@@ -152,8 +152,8 @@ h2 {
 }
 
 .mb8{
-	background-color: SandyBrown;
-	border-color: Maroon;
+	background-color: darkgray;
+	border-color: black;
 	text-align: center;
 	text-decoration: none;
 	color: white;
