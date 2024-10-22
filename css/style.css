@@ -12,9 +12,11 @@
 }
 
 h1 {
+	font-family: Coiny 2.0;
 	color: #9932CC;
 	text-align: center;
 	text-shadow: 2px 4px 10px;
+	font-size: 50px;
 }
 
 h2 {
@@ -24,12 +26,13 @@ h2 {
 	font-size: 30px;
 }
 
+
 .mb0{
-	background-color: white;
-	border-color: darkgoldenrod;
+	background-color: #FFFF66;
+	border-color: #CCCC00;
 	text-align: center;
 	text-decoration: none;
-	color: black;
+	color: white;
 	border-radius: 50px;
 	user-select: none;
 	font-family: sans-serif;
@@ -41,8 +44,8 @@ h2 {
 }
 
 .mb1{
-	background-color: Crimson;
-	border-color: DarkRed;
+	background-color: #FF9900;
+	border-color: #663300;
 	text-align: center;
 	text-decoration: none;
 	color: white;
@@ -57,8 +60,8 @@ h2 {
 }
 
 .mb2{
-	background-color: Coral;
-	border-color: OrangeRed;
+	background-color: #FF0000;
+	border-color: #990000;
 	text-align: center;
 	text-decoration: none;
 	color: white;
@@ -73,8 +76,8 @@ h2 {
 }
 
 .mb3{
-	background-color: Gold;
-	border-color: DarkKhaki;
+	background-color: #FF66CC;
+	border-color: #990066;
 	text-align: center;
 	text-decoration: none;
 	color: white;
@@ -89,8 +92,8 @@ h2 {
 }
 
 .mb4{
-	background-color: LimeGreen;
-	border-color: DarkGreen;
+	background-color: #3300FF;
+	border-color: #000033;
 	text-align: center;
 	text-decoration: none;
 	color: white;
@@ -105,8 +108,8 @@ h2 {
 }
 
 .mb5{
-	background-color: DarkTurquoise;
-	border-color: SteelBlue;
+	background-color: #33FFFF;
+	border-color: #003333;
 	text-align: center;
 	text-decoration: none;
 	color: white;
@@ -121,8 +124,8 @@ h2 {
 }
 
 .mb6{
-	background-color: MediumBlue;
-	border-color: MidnightBlue;
+	background-color: #00FF00;
+	border-color: #003300;
 	text-align: center;
 	text-decoration: none;
 	color: white;
@@ -137,8 +140,8 @@ h2 {
 }
 
 .mb7{
-	background-color: DarkViolet;
-	border-color: Indigo;
+	background-color: #CC3300;
+	border-color: #330000;
 	text-align: center;
 	text-decoration: none;
 	color: white;
@@ -169,8 +172,8 @@ h2 {
 }
 
 .mb9{
-	background-color: black;
-	border-color: darkgray;
+	background-color: #660099;
+	border-color: #330033;
 	text-align: center;
 	text-decoration: none;
 	color: white;
@@ -235,4 +238,23 @@ td {
 	#footer{
 		margin-left: 0;
 	}
+}
+
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
 }
