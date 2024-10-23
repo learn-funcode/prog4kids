@@ -1,190 +1,129 @@
 *,
+
 @font-face {
-    font-family: Mama Regular; /* Гарнитура шрифта */
-    src: url(fonts/MamaRegular.ttf); /* Путь к файлу со шрифтом */
+    font-family: "Kablammo"; /* Гарнитура шрифта */
+    src: url(fonts/Kablammo-Regular-VariableFont_MORF.ttf); /* Путь к файлу со шрифтом */
     font-style: normal;
 }
 
-@font-face {
-    font-family: Coiny 2.0; /* Гарнитура шрифта */
-    src: url(fonts/Coiny2.0.ttf); /* Путь к файлу со шрифтом */
-    font-style: normal;
+
+.kablammo-funcode {
+  font-family: "Kablammo", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 0;
+}
+
+.oswald-funcode {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.londrina-sketch-regular {
+  font-family: "Londrina Sketch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h1 {
-	font-family: Coiny 2.0;
-	color: #9932CC;
+	color: #FFFFFFFF;
 	text-align: center;
-	text-shadow: 2px 4px 10px;
-	font-size: 50px;
+	text-shadow: black 2px 4px 10px;
+	font-size: 70px;
+}
+
+body {
+	color: black;
+	align-items: left;
+	margin: 10px;
+}
+
+table {
+	table-layout: fixed;
+    width:100%;
+	margin: 5px;
+}
+
+td {
+	font-family: sans-serif;
+	word-wrap:break-word;
+	text-align: center;
+	padding: 5px;
+	color: white;
+	font-size: 20px;
+	font-weight: 600;
+	text-shadow: black 2px 4px 10px;
 }
 
 h2 {
+	font-family: sans-serif;
 	margin-left: 50px;
 	font-weight: bold;
-	text-shadow: white 5px 8px 10px;
 	font-size: 30px;
+	text-shadow: black 2px 4px 10px;
 }
 
-
-.mb0{
-	background-color: #FFFF66;
-	border-color: #CCCC00;
+button {
 	text-align: center;
 	text-decoration: none;
 	color: white;
-	border-radius: 50px;
-	user-select: none;
-	font-family: sans-serif;
-	font-size: 50px;
-	font-style: bold;
-	border-width: 10px;
 	width: 150px;
 	height: 150px;
+	border-radius: 50px;
+	user-select: none;
+	font-family: "Oswald", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: 700;
+  	font-style: normal;
+  	font-size: 50px;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+.mb0{
+	background-color: #f19abd;
 }
 
 .mb1{
-	background-color: #FF9900;
-	border-color: #663300;
-	text-align: center;
-	text-decoration: none;
-	color: white;
-	border-radius: 50px;
-	user-select: none;
-	font-family: sans-serif;
-	font-size: 50px;
-	font-style: bold;
-	border-width: 10px;
-	width: 150px;
-	height: 150px;
+	background-color: #da251e;
 }
 
 .mb2{
-	background-color: #FF0000;
-	border-color: #990000;
-	text-align: center;
-	text-decoration: none;
-	color: white;
-	border-radius: 50px;
-	user-select: none;
-	font-family: sans-serif;
-	font-size: 50px;
-	font-style: bold;
-	border-width: 10px;
-	width: 150px;
-	height: 150px;
+	background-color: #8e5446;
 }
 
 .mb3{
-	background-color: #FF66CC;
-	border-color: #990066;
-	text-align: center;
-	text-decoration: none;
-	color: white;
-	border-radius: 50px;
-	user-select: none;
-	font-family: sans-serif;
-	font-size: 50px;
-	font-style: bold;
-	border-width: 10px;
-	width: 150px;
-	height: 150px;
+	background-color: #f28101;
 }
 
 .mb4{
-	background-color: #3300FF;
-	border-color: #000033;
-	text-align: center;
-	text-decoration: none;
-	color: white;
-	border-radius: 50px;
-	user-select: none;
-	font-family: sans-serif;
-	font-size: 50px;
-	font-style: bold;
-	border-width: 10px;
-	width: 150px;
-	height: 150px;
+	background-color: #fef600;
 }
 
 .mb5{
-	background-color: #33FFFF;
-	border-color: #003333;
-	text-align: center;
-	text-decoration: none;
-	color: white;
-	border-radius: 50px;
-	user-select: none;
-	font-family: sans-serif;
-	font-size: 50px;
-	font-style: bold;
-	border-width: 10px;
-	width: 150px;
-	height: 150px;
+	background-color: #86c127;
 }
 
 .mb6{
-	background-color: #00FF00;
-	border-color: #003300;
-	text-align: center;
-	text-decoration: none;
-	color: white;
-	border-radius: 50px;
-	user-select: none;
-	font-family: sans-serif;
-	font-size: 50px;
-	font-style: bold;
-	border-width: 10px;
-	width: 150px;
-	height: 150px;
+	background-color: #76c5f0;
 }
 
 .mb7{
-	background-color: #CC3300;
-	border-color: #330000;
-	text-align: center;
-	text-decoration: none;
-	color: white;
-	border-radius: 50px;
-	user-select: none;
-	font-family: sans-serif;
-	font-size: 50px;
-	font-style: bold;
-	border-width: 10px;
-	width: 150px;
-	height: 150px;
+	background-color: #27176f;
 }
 
 .mb8{
-	background-color: darkgray;
-	border-color: black;
-	text-align: center;
-	text-decoration: none;
-	color: white;
-	border-radius: 50px;
-	user-select: none;
-	font-family: sans-serif;
-	font-size: 50px;
-	font-style: bold;
-	border-width: 10px;
-	width: 150px;
-	height: 150px;
+	background-color: #660099;
 }
 
 .mb9{
-	background-color: #660099;
-	border-color: #330033;
-	text-align: center;
-	text-decoration: none;
-	color: white;
-	border-radius: 50px;
-	user-select: none;
-	font-family: sans-serif;
-	font-size: 50px;
-	font-style: bold;
-	border-width: 10px;
-	width: 150px;
-	height: 150px;
+	background-color: #000000;
 }
 
 .h_button{
@@ -206,28 +145,6 @@ h2 {
 	height: 50px;
 }
 
-body {
-	color: black;
-	align-items: left;
-	margin: 10px;
-}
-
-table {
-	table-layout: fixed;
-    width:100%;
-	margin: 5px;
-}
-
-td {
-	word-wrap:break-word;
-	text-align: center;
-	padding: 5px;
-	color: white;
-	font-size: 20px;
-	font-weight: 600;
-	text-shadow: black 2px 4px 10px;
-}
-
 @media screen and (max-width: 1033 px){
 	#header{
 		margin-left: 0;
@@ -246,11 +163,6 @@ td {
     overflow: hidden;
 }
 
-/* Change background color of buttons on hover */
-.tab button:hover {
-    background-color: #ddd;
-}
-
 /* Style the tab content */
 .tabcontent {
     display: none;
@@ -258,3 +170,4 @@ td {
     border: 1px solid #ccc;
     border-top: none;
 }
+
