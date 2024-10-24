@@ -5,11 +5,6 @@ body {
     padding: 0px;
 }
 
-h1 {
-    margin: 0px;
-    padding: 0px;
-}
-
 .content {
 	display: flex;
     justify-content: center;
@@ -37,14 +32,24 @@ h1 {
 	width: 100%;
 	background-color: #f9a737;
 	color: #ffffff;
-	font-size: 20px;
-	font-family: sans-serif;
 	margin: 0px;
 	padding: 0px;
 }
 
 .title h1 {
+    font-size: 50px;
+    font-family: sans-serif;
 	margin-left: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.title h2 {
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-left: 20px;
+    margin: 0px;
+    padding: 0px;
 }
 
 table {
@@ -141,4 +146,33 @@ td {
 
 .mb9{
     background-color: #000000;
+}
+
+.container {
+    position: relative;
+}
+
+.object {
+    width: 300px;
+    height: auto;
+}
+
+.comment {
+    position: absolute;
+    z-index: 2; /* Поверх картинки */
+    top: -30px; /* Поднимает комментарий над объектом */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    white-space: nowrap;
+    opacity: 0; /* Скрыто по умолчанию */
+    transition: opacity 0.3s ease;
+}
+
+.container:hover .comment {
+    opacity: 1; /* Показывает комментарий при наведении мыши */
 }
