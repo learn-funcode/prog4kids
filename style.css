@@ -1,0 +1,178 @@
+body {
+	background-color: #f8f7ef;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.content {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 10px;
+}
+
+.logo {
+	position: absolute, fixed;
+	margin: 0px 20px 0px 0px;
+	padding: 0px 0px 0px 0px;
+    height: 50px;
+}
+
+.home {
+    position: absolute;
+	height: 70px;
+	margin: 0px 0px 0px 10px;
+	padding: 0px 0px 0px 0px;
+    cursor: pointer;
+}
+
+.title {
+	width: 100%;
+	background-color: #f9a737;
+	color: #ffffff;
+	margin: 0px;
+	padding: 0px;
+}
+
+.title h1 {
+    font-size: 50px;
+    font-family: sans-serif;
+	margin-left: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.title h2 {
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-left: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+table {
+    table-layout: fixed;
+    width:100%;
+    padding-bottom: 20px;
+    margin-left: 30px;
+}
+
+td {
+   color: #355e7c;
+   text-align: left;
+}
+
+.text {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.button {
+            position: relative;
+            width: 260px; /* Ширина кнопки */
+            height: 190px; /* Высота устанавливается через padding */
+            background-image: url("images/mbutton.png"); /* Замените на URL вашей картинки */
+            background-size: cover;
+            border: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            overflow: hidden;
+        }
+
+        .button span {
+            position: absolute;
+            z-index: 1; /* Поверх картинки */
+            width: 80%;
+            height: 80%;
+            margin-right: 15px;
+            margin-top: 15px;
+            justify-content: center;
+            text-align: center;
+            font-optical-sizing: auto;
+            font-size: 90px;
+            font-weight: bold;
+            font-family: "Encode Sans", sans-serif;
+            color: white; /* Цвет текста */
+            border-radius: 10px;
+            font-style: normal;
+            font-variation-settings: "wdth" 100;
+        }
+
+        .button span:hover {
+            background-color: lightgray;
+            color: darkgray;
+        }
+
+.mb0{
+    background-color: #f19abd;
+}
+
+.mb1{
+    background-color: #da251e;
+}
+
+.mb2{
+    background-color: #8e5446;
+}
+
+.mb3{
+    background-color: #f28101;
+}
+
+.mb4{
+    background-color: #fef600;
+}
+
+.mb5{
+    background-color: #86c127;
+}
+
+.mb6{
+    background-color: #76c5f0;
+}
+
+.mb7{
+    background-color: #27176f;
+}
+
+.mb8{
+    background-color: #660099;
+}
+
+.mb9{
+    background-color: #000000;
+}
+
+.container {
+    position: relative;
+}
+
+.object {
+    width: 300px;
+    height: auto;
+}
+
+.comment {
+    position: absolute;
+    z-index: 2; /* Поверх картинки */
+    top: -30px; /* Поднимает комментарий над объектом */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    white-space: nowrap;
+    opacity: 0; /* Скрыто по умолчанию */
+    transition: opacity 0.3s ease;
+}
+
+.container:hover .comment {
+    opacity: 1; /* Показывает комментарий при наведении мыши */
+}
