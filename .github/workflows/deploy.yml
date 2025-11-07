@@ -13,6 +13,8 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment: # <--- ИСПРАВЛЕНИЕ ОШИБКИ
+      name: github-pages # <--- ИСПРАВЛЕНИЕ ОШИБКИ
     steps:
       - name: Checkout repository with LFS
         uses: actions/checkout@v4
