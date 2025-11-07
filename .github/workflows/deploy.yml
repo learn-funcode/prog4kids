@@ -1,0 +1,28 @@
+name: Deploy GitHub Pages with LFS
+
+on:
+  push:
+    branches:
+      - main # Убедитесь, что это имя вашей основной ветки
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository with LFS
+        uses: actions/checkout@v4
+        with:
+          repository: learn-funcode/prog4kids # Замените на свое имя пользователя/репозиторий, если оно другое
+          lfs: true # КРИТИЧЕСКИЙ ПАРАМЕТР: включает поддержку Git LFS
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.' # Путь к файлам, которые нужно опубликовать (корневая папка)
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
